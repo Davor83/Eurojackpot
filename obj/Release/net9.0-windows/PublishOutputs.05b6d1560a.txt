@@ -1,0 +1,5 @@
+C:\C# Projects\Eurojackpot\Eurojackpot\bin\Release\net9.0-windows\publish\Eurojackpot.exe
+C:\C# Projects\Eurojackpot\Eurojackpot\bin\Release\net9.0-windows\publish\Eurojackpot.dll
+C:\C# Projects\Eurojackpot\Eurojackpot\bin\Release\net9.0-windows\publish\Eurojackpot.deps.json
+C:\C# Projects\Eurojackpot\Eurojackpot\bin\Release\net9.0-windows\publish\Eurojackpot.runtimeconfig.json
+C:\C# Projects\Eurojackpot\Eurojackpot\bin\Release\net9.0-windows\publish\Eurojackpot.pdb
