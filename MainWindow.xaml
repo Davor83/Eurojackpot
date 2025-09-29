@@ -8,13 +8,14 @@
         WindowStartupLocation="CenterScreen"
         Title="LOTO" Height="400" Width="400" ResizeMode="NoResize">
     <Window.Background>
-        <ImageBrush ImageSource="/1.png" TileMode="None" Stretch="None"/>
+        <ImageBrush ImageSource="/world-lotteries-jpg.webp"/>
     </Window.Background>
-    <Grid>
+
+    <Grid >
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
 
         <TextBlock Text="EUROJACKPOT" HorizontalAlignment="Center" TextAlignment="Center" FontSize="25" FontFamily="Times New Roman" Grid.Row="0" Margin="5" VerticalAlignment="Top" Width="200" FontWeight="Bold">
@@ -34,9 +35,13 @@
                 </LinearGradientBrush>
             </TextBlock.Foreground>
         </TextBlock>
-        <TextBox x:Name="txtMainNumbers"   Grid.Row="1" Height="25" Width="220" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="90,0,90,0" />
-        <TextBox x:Name="txtExtraNumbers" Grid.Row="1"  Height="25" Width="60" HorizontalAlignment="Right" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" />
-        <Button x:Name="btnGenerate" Content="Generate"  Click="btnGenerate_Click" Grid.Row="2" Grid.Column="1" Height="35" Width="120" VerticalAlignment="Bottom" HorizontalAlignment="Center" VerticalContentAlignment="Center"
-                Margin ="5" FontSize="22"/>
+
+        <TextBox x:Name="txtMainNumbers"   Grid.Row="1" Height="25" Width="220" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" 
+                 HorizontalContentAlignment="Center" />
+        <TextBox x:Name="txtExtraNumbers" Grid.Row="1"  Height="25" Width="60"  VerticalAlignment="Center" HorizontalAlignment="Right" VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center" Margin="10" />
+
+        <Button x:Name="btnGenerate" Content="Generate"  Click="btnGenerate_Click" Grid.Row="2" Height="32" Width="120" VerticalAlignment="Top" HorizontalAlignment="Center" VerticalContentAlignment="Center"
+                 FontSize="20" Margin="0,0,0,10"/>
     </Grid>
 </Window>

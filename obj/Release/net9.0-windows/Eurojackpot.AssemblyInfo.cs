@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eurojackpot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+596655fca2639804d0110abd7a4e0fe7fdb1338e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eurojackpot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eurojackpot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
